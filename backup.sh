@@ -5,7 +5,7 @@ BACKUP_DATA_DIR=/home/ubuntu/backup
 BACKUP_DIR=$BACKUP_DATA_DIR/$(date +%Y%m%d_%H%M%S)
 DIRECTORIES="/home/ubuntu/data/ /home/ubintu/config/"
 DBUSER=root
-DBPASS=df24jwj32h313bwjw52332wnefo
+DBPASS=#################################
 DAYS_TO_STORE=30
 ##########/PARAMETERS ##########
 
