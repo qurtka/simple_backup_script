@@ -13,7 +13,7 @@ echo "Started at: "$(date)
 mkdir $BACKUP_DIR
 
 #Making and archivation DB dumps
-mysqldump --opt -u $DBUSER -p$PASS --events --all-databases > $BACKUP_DIR/all.sql
+mysqldump --opt -u $DBUSER -p$DBPASS --events --all-databases > $BACKUP_DIR/all.sql
 tar -cjf $BACKUP_DIR/all.sql.tbz -C $BACKUP_DIR/ all.sql
 rm $BACKUP_DIR/all.sql
 echo "Database backup finished"
